@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login con Estrellas Animadas</title>
+    <link rel="stylesheet" href="Diseño2.css">
+</head>
+<body>
+    <div class="estrellas"></div>
+    <section class="seccion-login">
+        <h2>Login</h2>
+        <form>
+            <div class="grupo-formulario">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+            </div>
+            <div class="grupo-formulario" style="position: relative;">
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+                <span class="toggle-password" onclick="alternarVisibilidadContrasena()">👁️</span>
+            </div>
+            <button type="submit" class="btn">Iniciar sesión</button>
+        </form>
+    </section>
+
+    <script src="JavS.js"></script>
+</body>
+</html>
